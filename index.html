@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Why Not Trump?</title>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <meta property="og:title" content="Why Not Trump?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://whynot45.com" />
+  <meta property="og:image" content="favicon.png" />
+  <meta property="og:description" content="A collection of undisputed actions and statements by Donald J. Trump or his administration, with sources provided." />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179195840-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179195840-1');
+  </script>
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap" rel="stylesheet">
+  <!-- bootstrap start -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- bootstrap end -->
+  <style>
+    .accordion {
+      margin-bottom: 20px;
+    }
+
+    div.container button {
+      width: 100%;
+    }
+
+    div.card-body button {
+      background-color:  #f1f1f1;
+      color: black;
+    }
+
+    div.card-header button {
+      background-color: #222c4d;
+      color: white;
+      transition: 0s;
+    }
+
+    div.card-header {
+      background-color: #222c4d;
+      color: white;
+      margin: 2px;
+    }
+
+    div.card div div button {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    div.card div div div {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    .header {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .sub-header {
+      font-size: 20px;
+      text-align: center;
+    }
+    body {
+      font-family: 'Epilogue', sans-serif;
+    }
+
+    .card {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .btn {
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+    }
+
+    .card-header {
+      background-color: #f1f1f1;
+      color: black;
+      text-decoration: none;
+    }
+
+    .card-body {
+      padding-left: 35px;
+    }
+    
+    .card .card-header:hover {
+      background-color: #2e3e75;
+      color: white; 
+      text-decoration: none;
+      transition: 0s;
+    }
+
+    .collapse .card-body .card-header:hover {
+      background-color: #dbd9d9;
+      color:black;
+      text-decoration: none;
+      animation:none;
+    
+    }
+
+    .card .card-header:hover button {
+      background-color: #2e3e75;
+      color: white;
+      text-decoration: none;
+      transition: 0s;
+    }
+
+    .collapse .card-body .card-header:hover button {
+      background-color: #dbd9d9;
+      color: black;
+      text-decoration: none;
+      animation:none;
+    }
+
+    .card-body .card .card-header {
+      margin: 4px;
+      background-color: #dbd9d9;
+    }
+
+    .card-body .card .card-header button {
+      background-color: #dbd9d9;
+    }
+
+    /*.active,
+    div.card-header button:hover .parent {
+      background-color: #2e3e75;
+      color: white;
+      text-decoration: none;
+    }
+
+    .active,
+    div.card-header button:hover {
+      background-color: #2e3e75;
+      color: white;
+      text-decoration: none;
+    }
+
+
+
+
+    /* div.container div * {
+      width: 100%;
+    } */
+  </style>
+  <script>
+    $(document).ready(function() {
+      // parse hash and open collapse (and work upwards through parents)
+      var hash = document.location.hash;
+      if (hash != null && hash != "" && hash != "#") {
+        var target = $(hash);
+        target.addClass("show");
+        target.parents(".collapse").addClass("show");
+      }
+      // bind show buttons to replace state with hash (after initial open)
+      $('#sections').on('shown.bs.collapse', function (e) {
+        console.log("triggered on "+e.target);
+        var collapseTarget = $(e.target).siblings('.card-header').find('button').attr('data-target');
+        history.replaceState(null, null, document.location.pathname + collapseTarget);
+      });
+    });
+  </script>
+  <script>
+    /**
+    * Function that captures a click on an outbound link in Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+    * using 'navigator.sendBeacon' in browser that support it.
+    */
+    var captureOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
+    </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="header">Why Not Trump?</h1>
+    <p class="sub-header">Speculation is excluded from this list. Everything you see here is an undisputed action or statement by Donald J. Trump or his administration, with sources provided.</p>
+    
+    <div class="clearfix">
+      <button type="button" class="btn btn-outline-secondary float-right" style="width:auto" onclick="$('.collapse').collapse('hide')">-</button>
+      <button type="button" class="btn btn-outline-secondary float-right" style="width:auto" onclick="$('.collapse').collapse('show')">+</button>
+    </div>
+
+    <div id="sections">
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism">
+            Racism
+          </button>
+        </div>
+        <div id="racism" class="collapse">
+          <div class="card-body">
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-denounce">
+                  Refused to denounce white supremacists when asked to at a presidential debate, instead giving them marching orders: "Stand back and stand by."
+                </button>
+              </div>
+              <div id="racism-denounce" class="collapse">
+                <div class="card-body">
+                  <p>During the September 29 presidential debate, moderator Chris Wallace asked Trump if he would be willing to denounce white supremacists right there on the stage. Trump initially dodged the question and attempted to change the subject. When pressed further and was specifically asked to denounce the Proud Boys and white supremacists, Trump said "Stand back and stand by," and then changed the subject to Antifa.</p>
+                  <iframe width="480" height="290" src="https://www.youtube.com/embed/qIHhB1ZMV_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                  <p>The Proud Boys have adopted "Stand back and stand by" as an unofficial slogan, and are now selling merchandise with the statement. <a href='https://www.cnn.com/2020/10/01/business/amazon-removal-stand-back-stand-by/index.html'>[1]</a> </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-rally">
+                  Defended White Nationalists, stating there were "very fine people" on their side at a Neo-Nazi rally
+                </button>
+              </div>
+              <div id="racism-rally" class="collapse">
+                <div class="card-body">
+                  <p>In August 2017, white supremacists and Neo-Nazis held a rally in Charlottesville, Virginia. This was not a
+                    rally where some white supremacists happened to show up - the rally was organized and attended solely by
+                    self-identified white supremacists and Neo-Nazis, with the goal of unifying the American white nationalist
+                    movement <a href='https://en.wikipedia.org/wiki/Unite_the_Right_rally'>[1]</a></p>
+                  <p>The rally was attended by David Duke and other members of the Ku Klux Klan. Attendees could be heard chanting
+                    "Jews will not replace us", "Blood and Soil" (a Nazi slogan <a
+                      href='https://www.historylearningsite.co.uk/nazi-germany/blood-and-soil/'>[2]</a>) and "We love Russia".</p>
+                  <p>These white nationalists believe that Trump is fighting for their beliefs. In an interview on the morning of
+                    the rally, David Duke said, "We are determined to take our country back. We're going to fulfill the promises
+                    of Donald Trump. That’s why we voted for Donald Trump, because he said he’s going to take our country back."
+                  </p>
+                  <p>On August 15, 2017, Trump held a press conference where he was hesitent to condemn the rally attendees, and
+                    stated, "you had some very bad people in that group, but you also had people that were very fine people, on
+                    both sides." <a
+                      href='https://www.politifact.com/article/2019/apr/26/context-trumps-very-fine-people-both-sides-remarks/'>[3]</a>
+                    Donald Trump is stating here, in no uncertain terms, that some white nationalists are very fine people.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-arpaio">
+                  Pardoned Sheriff Joe Arpaio, who was convicted of extreme racial profiling and sadistic punishments against Latinos
+                </button>
+              </div>
+              <div id="racism-arpaio" class="collapse">
+                <div class="card-body">
+                  <p>The U.S. Department of Justice concluded that Arizona sheriff Joe Arpaio oversaw the "worst pattern of racial
+                    profiling in U.S. history". The illegal tactics that he was using included "extreme racial profiling and
+                    sadistic punishments that involved the torture, humiliation, and degradation of Latino inmates". <a
+                    href='https://slate.com/news-and-politics/2017/08/donald-trump-is-considering-pardoning-former-sheriff-joe-arpaio.html'>[1]</a></p>
+          
+                  <p>Arpaio built a tent camp for migrant children which he once proudly referred to as a "concentration camp"
+                    <a href='https://www.youtube.com/watch?v=D7reZOp2Qco'>[2]</a>. In this camp, Latinos were detained, often illegally, purely based on their appearance and assumed
+                    immigration status. In many instances, officers detained lawful Latino residents for hours, days, or weeks
+                    based on fabricated or exaggerated charges.
+                  </p>
+          
+                  Detainees faced gruesome conditions and egregiously inhumane practices <a
+                  href='https://www.aclu.org/blog/criminal-law-reform/arizona-voters-deserve-know-joe-arpaios-true-record-brutality-and-abuse'>[3]</a>:
+                  <ul>
+                    <li>Women reported assaults and being forced to sleep in their own menstrual blood.</li>
+                    <li>Deputies allegedly put Spanish-speaking inmates in solitary confinement as punishment for not
+                      understanding English</li>
+                    <li>Jail staff regularly referred to detainees as "wetbacks" "Mexican bitches" and "stupid Mexicans"</li>
+                    <li>Detainees were cruelly and illegally deprived of food and medical care</li>
+                    <li>The tent camp was outdoors where detainees were exposed to extreme heat in the Summer, and extreme cold in
+                      the winter, with very little clothing or other means of sheltering from the elements</li>
+                  </ul>
+                  <p>Trump referred to Arpaio as an "American Patriot" <a
+                    href='https://twitter.com/realDonaldTrump/status/901263061511794688'>[4]</a></p>
+          
+                  <p>"By pardoning Joe Arpaio, Donald Trump has sent another disturbing signal to an emboldened white nationalist
+                    movement that this White House supports racism and bigotry." According to ACLU deputy legal director Cecilia
+                    Wang, the pardon was "a presidential endorsement of racism". <a
+                    href='https://thehill.com/blogs/blog-briefing-room/news/348071-aclu-trumps-pardon-of-arpaio-a-presidential-endorsement-of'>[5]</a></p>
+          
+                  <p>"Sheriff Arpaio has made public statements that a fact finder could interpret as endorsing racial profiling,
+                    such as stating that, even lacking 287(g) authority, his officers can detain people based upon 'their speech,
+                    what they look like, if they look like they came from another country'... Moreover, he acknowledges that MCSO
+                    provides no training to reduce the risk of racial profiling, stating 'if we do not racial profile, why would I
+                    do a training program?'" </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-flag">
+                  Defended the Confederate Flag
+                </button>
+              </div>
+              <div id="racism-flag" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">Has <a href="https://twitter.com/BubbaWallace?ref_src=twsrc%5Etfw">@BubbaWallace</a>
+                      apologized to all of those great NASCAR drivers &amp; officials who came to his aid, stood by his side,
+                      &amp; were willing to sacrifice everything for him, only to find out that the whole thing was just another
+                      HOAX? That &amp; Flag decision has caused lowest ratings EVER!</p>&mdash; Donald J. Trump (@realDonaldTrump)
+                    <a href="https://twitter.com/realDonaldTrump/status/1280117571874951170?ref_src=twsrc%5Etfw">July 6, 2020</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <ul>
+                    <li>Trump criticizes Nascar's decision to ban the Confederate flag, a pro-slavery symbol of racism, from its
+                      rallies</li>
+                    <li>Trump suggests that Bubba Wallace should apologize for the media reaction to the 'noose' that was found in
+                      his garage, which was later found to have been there since 2019. Bubba Wallace is not the person who
+                      reported the noose, rather it was reported by a concerned member of Wallace's team.</li>
+                    <li>Trump lies about Nascar's ratings lowering due to the Confederate flag ban: Fox Sports Executive Vice
+                      President Michael Mulvihill says that ratings have increased 8% since the 2020 season resumed: <br>
+                      <blockquote class="twitter-tweet">
+                        <p lang="en" dir="ltr">NASCAR viewership on Fox networks is up +8% since returning from its pandemic
+                          hiatus on May 17.</p>&mdash; Michael Mulvihill (@mulvihill79) <a
+                          href="https://twitter.com/mulvihill79/status/1280137510593499136?ref_src=twsrc%5Etfw">July 6, 2020</a>
+                      </blockquote>
+                      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </li>
+                    <li>Refused to denounce the idea of his supporters flying Confederate flags at his rallies <a
+                        href='https://www.youtube.com/watch?v=nCYML1khgMk'>[1]</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-congresswomen">
+                  Told 4 non-white Congresswomen to "go back and help fix the totally
+                  broken and crime infested places from which they came". Three were US-born citizens and the fourth immigrated to
+                  the US in the early 1990's.
+                </button>
+              </div>
+              <div id="racism-congresswomen" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">....and viciously telling the people of the United States, the greatest and most
+                      powerful Nation on earth, how our government is to be run. Why don’t they go back and help fix the totally
+                      broken and crime infested places from which they came. Then come back and show us how....</p>&mdash; Donald
+                    J. Trump (@realDonaldTrump) <a
+                      href="https://twitter.com/realDonaldTrump/status/1150381395078000643?ref_src=twsrc%5Etfw">July 14, 2019</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-retweet">
+                  Retweeted a video showing a supporter shouting "White power"
+                </button>
+              </div>
+              <div id="racism-retweet" class="collapse">
+                <div class="card-body">
+                  <p>On July 26, 2020, Trump retweeted a video showing one of his supporters riding a golf cart holding "Trump
+                    2020" and "America First" signs. In the video, protestors shout taunts such as "Where's your white hood?" and
+                    the man responds by pumping his fist in the air and shouting "White power!" <a
+                      href='https://www.nytimes.com/2020/06/28/us/politics/trump-white-power-video-racism.html'>[1]</a></p>
+                  <p>Trump retweeted the video, thanking "the great people of The Villages," the Florida retirement community
+                    where the video took place.</p>
+                  <p>In response to the tweet, senator Tim Scott, the only black Republican senator, said "I think it's
+                    indefensible. We should take it down."</p>
+                  <p>Former national security advisor John Bolton said it was "entirely possible that he tweeted tweeted this
+                    video because he saw the sign," but also admitted, "It may be that you can draw a conclusion that he heard it,
+                    and it was racist, and he tweeted it to promote the message. It's a legimiate conclusion to draw."</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-centralpark">
+                  Took out a full page ad calling for the death penalty of 5 falsely
+                  accused black teenagers who allegedly committed a violent rape, and continued his attack on them even after they
+                  were proven innocent.
+                </button>
+              </div>
+              <div id="racism-centralpark" class="collapse">
+                <div class="card-body">
+                  <p>In 1989 a woman was brutally raped in Central Park, the point of memory loss, brain damage, extreme injury
+                    and a 12 day coma. In the same night, attacks by predominately black teenagers were reported in the Central
+                    Park area. NYPD arrested 14 teenagers, and charged 5 with the rape. During their interrogation, the 5
+                    teenagers "confessed" to the rape after being coerced, attacked and denied their rights by NYPD. This case is
+                    historical, because it brought to light the seriousness of false and coerced confessions. Despite indisputable
+                    evidence, these teenagers were convicted of rape and served prison time. In 2001, a convicted murdered and
+                    serial rapist confessed to the rape, evidence proved his confession was genuine. It wasn't until 2002 that the
+                    Central Park 5 Falsely accused were released. <a
+                    href='https://en.wikipedia.org/wiki/Central_Park_jogger_case'>[1]</a></p>
+          
+                  <p>Prior to conviction, though while strong evidence that the teenagers were innocent, Trump took out a full
+                    page ad, advocating for the return of the death penalty of these 5 teenagers <a
+                    href='https://www.nytimes.com/2002/10/23/nyregion/trump-draws-criticism-for-ad-he-ran-after-jogger-attack.html'>[2]</a>. Trump stated on Larry King,
+                    <b>"maybe hate is what we need if we're gonna get something done."</b> <a
+                    href='https://www.cnn.com/2016/10/07/politics/trump-larry-king-central-park-five/'>[3]</a></p>
+          
+                  <p>In 2014, when the Central Park 5 sued the city of New York, Trump stated the settlement was "a disgrace",
+                    saying: "Settling doesn't mean innocence. [...] These young men do not exactly have the pasts of angels." <a
+                    href='https://www.cnn.com/2016/10/06/politics/reality-check-donald-trump-central-park-5/'>[4]</a>
+                    In 2016, Trump again maintained the Central Park 5 were guilty, despite proof they were not <a
+                    href='https://www.nydailynews.com/new-york/nyc-crime/donald-trump-central-park-settlement-disgrace-article-1.1838467'>[5]</a>. In 2019,
+                    Trump again insisted "You have people on both sides of that. They admitted their guilt. If you look at Linda
+                    Fairstein and if you look at some of the prosecutors, they think that the city should never have settled that
+                    case. So we'll leave it at that." <a
+                    href='https://www.bbc.com/news/world-us-canada-48687356'>[6]</a></p>
+          
+                  <p>Trump never recanted his full page ad calling for the death penalty of the 5 falsely accused.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-lawsuit">
+                  Donald Trump and his father were sued by the US Department of Justice
+                  for discrimination against African Americans.
+                </button>
+              </div>
+              <div id="racism-lawsuit" class="collapse">
+                <div class="card-body">
+                  <p>Trump Management actively denied housing and property to black tenants <a
+                    href='https://www.npr.org/2016/09/29/495955920/donald-trump-plagued-by-decades-old-housing-discrimination-case'>[1]</a>. Employees stated they were
+                    "discouraged rental to blacks" and they were "not allowed to rent to black tenants." <a
+                    href='https://www.washingtonpost.com/politics/inside-the-governments-racial-bias-case-against-donald-trumps-company-and-how-he-fought-it/2016/01/23/fb90163e-bfbe-11e5-bcda-62a36b394160_story.html?noredirect=on'>[2]</a> Prospective black
+                    tenants were sent to different offices than white renters.</p>
+                  <p>Investigators sent test applicants to open listings and found that black applicants were informed that a
+                    listing had been filled. When a white applicant requested to rent the same unit directly afterwards, they were
+                    offered immediate move-in dates.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-apprentice">
+                  Floated the idea of having a season of The Apprentice with a team of
+                  successful black people vs. a team of successful white people
+                </button>
+              </div>
+              <div id="racism-apprentice" class="collapse">
+                <div class="card-body">
+                  <p>
+                    On his radio show in 2005, Trump Explained to listeners that he "wasn't particularly
+                    happy" with the show's most recent season, Trump said he was mulling "an idea that is fairly controversial —
+                    creating a team of successful African-Americans versus a team of successful whites. Whether people like that
+                    idea or not, it is somewhat reflective of our very vicious world." <a
+                      href='https://www.buzzfeednews.com/article/mckaycoppins/donald-trump-wanted-a-white-versus-black-season-of-the-appre#.teymNdKAmd'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-obama">
+                  Spearheaded the "Birtherism" conspiracy theory, falsely alleging
+                  repeatedly over the course of several years, with no factual evidence, that Barack Obama was not born in the
+                  United States
+                </button>
+              </div>
+              <div id="racism-obama" class="collapse">
+                <div class="card-body">
+                  <p>On the Laura Ingraham Show in March 2011, Trump said, "He doesn’t have a birth certificate, or if he does,
+                    there's something on that certificate that is very bad for him. Now, somebody told me—and I have no idea
+                    whether this is bad for him or not, but perhaps it would be—that where it says 'religion,' it might have
+                    'Muslim.'" <a href='https://www.youtube.com/watch?v=WqaS9OCoTZs'>[1]</a></p>
+                  <p>Even after Obama provided a copy of his birth certificate, in May 2012, Trump told Wolf Blitzer that "a lot
+                    of people" do not think it was an authentic certificate. In August 2012, he called the certificate a
+                    "fraud".<a
+                    href='https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html'>[2]</a>
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">An &#39;extremely credible source&#39; has called my office and told me that <a
+                        href="https://twitter.com/BarackObama?ref_src=twsrc%5Etfw">@BarackObama</a>&#39;s birth certificate is a
+                      fraud.</p>&mdash; Donald J. Trump (@realDonaldTrump) <a
+                      href="https://twitter.com/realDonaldTrump/status/232572505238433794?ref_src=twsrc%5Etfw">August 6, 2012</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <p>It wasn't until September 2016 that Trump finally acknowledged that Obama was born in the United States. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-harris">
+                  Encouraged the baseless birther conspiracy theory against Kamala Harris, saying that she may not be eligible to hold office.
+                </button>
+              </div>
+              <div id="racism-harris" class="collapse">
+                <div class="card-body">
+                  <p>
+                    At a press conference in August, Trump promoted a false conspiracy theory by saying he heard Kamala Harris "doesn't meet the requirements" for the vice presidency or presidency <a href='https://www.youtube.com/watch?v=GFEJrri2z90'>[1]</a>.
+                    There is no factual basis to this assertion. <a href='https://www.nytimes.com/2020/08/13/us/politics/trump-kamala-harris.html'>[2]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-accused">
+                  Has been accused of racism throughout his career by dozens of people who personally know him
+                </button>
+              </div>
+              <div id="racism-accused" class="collapse">
+                <div class="card-body">
+                  <ul>
+                    <li>
+                      Trump Plaza Hotel and Casino President John R. O'Donnell, in his 1991 book titled "Trumped," claimed that
+                      Trump once said that "laziness is a trait in blacks." In a 1997 Playboy interview, Trump did not dispute the
+                      remarks, saying "The stuff O'Donnell wrote about me is probably true." <a
+                        href='https://www.washingtonpost.com/news/fact-checker/wp/2016/07/25/did-donald-trump-really-say-those-things/'>[1]</a>
+                    </li>
+                    <li>
+                      A sound technician on The Apprentice said Trump repeatedly called him a "Fucking Monkey". <a
+                        href='https://www.buzzfeednews.com/article/emaoconnor/trump-called-mic-guy-fucking-monkey#.pyooGQ9n4'>[2]</a>
+                    </li>
+                    <li>
+                      A producer on The Apprentice alleges that there are tapes of Trump using the n-word on many occasions. <a
+                        href='https://www.newsweek.com/donald-trump-n-word-apprentice-1445854'>[3]</a>
+                    </li>
+                    <li>
+                      A former Black Casino worker at Trump's Castle in Atlantic City was quoted saying, "When Donald and Ivana
+                      came to the casino, the bosses would order all the black people off the floor. It was the eighties, I was a
+                      teen-ager, but I remember it: they put us all in the back." <a
+                        href='https://www.politifact.com/factchecks/2019/may/22/viral-image/donald-trump-has-faced-allegations-racism-decades/'>[4]</a>
+                    </li>
+                    <li>
+                      In a civil lawsuit against Trump, vice president of American Dream Calendar Girls Jill Harth alleges that
+                      Trump discriminated against black models, and that he 'directed that any black female contestants be
+                      excluded' from a party at Mar-a-Lago resort. <a
+                        href='https://www.dailymail.co.uk/news/article-3546047/Beauty-pageant-organizer-accused-Trump-unwanted-fondling-contestant-claimed-said-women-bimbos.html'>[5]</a>
+                    </li>
+                    <li>
+                      A black Miss Teen USA contestant was warned that "Mr. Trump doesn't like black people." <a
+                        href='https://www.buzzfeednews.com/article/kendalltaggart/former-miss-teen-usa-says-she-was-told-trump-doesnt-like-bla'>[6]</a>
+                    </li>
+                    <li>
+                      The very first newspaper headline about Donald Trump was a 1973 article titled "Major Landlord Accused of
+                      Antiblack Bias in City". <a
+                        href='https://www.nytimes.com/times-insider/2015/07/30/1973-meet-donald-trump/?smid=tw-nytimes'>[7]</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption">
+            Corruption & Crimes Committed while in Office
+          </button>
+        </div>
+        <div id="corruption" class="collapse">
+          <div class="card-body">
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#racism-transferofpower">
+                  Refuses to commit to a peaceful transfer of power if he loses the election
+                </button>
+              </div>
+              <div id="racism-transferofpower" class="collapse">
+                <div class="card-body">
+                  <p>Trump has made several false claims about the reliability of mail-in voting, an option many Americans will choose to cast their votes safely during the COVID-19 pandemic. He is using these baseless claims to lay the groundwork for claiming a fraudulent election in the even that he loses.</p>
+                  <p>Trump has repeated these baseless claims frequently, with no evidence to back up his claims.</p>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">RIGGED 2020 ELECTION: MILLIONS OF MAIL-IN BALLOTS WILL BE PRINTED BY FOREIGN COUNTRIES, AND OTHERS. IT WILL BE THE SCANDAL OF OUR TIMES!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1275024974579982336?ref_src=twsrc%5Etfw">June 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <p>Intelligence agencies have found no evidence of any plot to counterfeit or forge mail ballots, and historically any fraud using mail ballots is extremely rare. <a href='https://www.nytimes.com/article/mail-in-voting-explained.html'>[2]</a></p>
+                  <p>At the Republican National Convention, despite being significantly behind in the polls, Trump said "The only way we're going to lose this election is if the election is rigged, remember that."</p>
+                  <iframe width="480" height="290" src="https://www.youtube.com/embed/3LJ9sNsXERU?start=29" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p>In a press briefing on September 23, Trump refused to commit to a peaceful transfer of power if he loses the election, again claiming falsely that mail-in ballots would be a problem.</p>
+                  <iframe title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000007359070"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-emoluments">
+                  Has funneled millions of taxpayer dollars to his businesses by traveling to his own properties hundreds of times throughout his presidency
+                </button>
+              </div>
+              <div id="corruption-emoluments" class="collapse">
+                <div class="card-body">
+                  <p>See: <a href='https://whynot45.com/#emoluments'>Emoluments Violations</a></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-terms">
+                  Has suggested on many occasions that he should serve more than 2 terms as president
+                </button>
+              </div>
+              <div id="corruption-terms" class="collapse">
+                <div class="card-body">
+                  <p>"Should we go back to 16 years? Congress, can we have that extended?"</p>
+                  <iframe width="480" height="290" src="https://www.youtube.com/embed/j-Tw_e7DrG8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <p>"I was going to joke, General, and say at least for 10, or 14 years, but we would cause bedlam if I said...so we'll say six."</p>
+                  <iframe width='480' height='290' scrolling='no' src='https://www.washingtonpost.com/video/c/embed/b8350753-ceee-4d87-b3f3-8cc523e11a00' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  <p>"Don't forget China's great, and Xi is a great gentleman. He is now president for life. President for life! And he was able to do that, I think it's great. Maybe we'll give that a shot some day."</p>
+                  <iframe width="480" height="290" src="https://www.youtube.com/embed/d5emEd4jj7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">.....news is that at the end of 6 years, after America has been made GREAT again and I leave the beautiful White House (do you think the people would demand that I stay longer? KEEP AMERICA GREAT), both of these horrible papers will quickly go out of business &amp; be forever gone!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1140252529428717568?ref_src=twsrc%5Etfw">June 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <p>"And maybe if we really like it a lot and if things keep going like they are going we will do what we have to do, and a three [terms] and a four, and a five."</p>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">"And maybe if we really like it a lot and if things keep going like they are going we will do what we have to do, and a three [terms] and a four, and a five." <a href="https://t.co/NeektAccaR">pic.twitter.com/NeektAccaR</a></p>&mdash; Aaron Rupar (@atrupar) <a href="https://twitter.com/atrupar/status/1130622473442144256?ref_src=twsrc%5Etfw">May 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/JDS4zUXXJG">pic.twitter.com/JDS4zUXXJG</a></p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1142157838153895941?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+                  <p>"We're going to have to extend my second term, because 2026. I'm going to have to extend it for a couple of years."</p>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">President Trump to FIFA&#39;s Gianni Infantino: &quot;We&#39;re going to have to extend my second term, because 2026 -- I&#39;m going to have to extend it for a couple of years.&quot; <a href="https://t.co/sl5XZA2gWD">pic.twitter.com/sl5XZA2gWD</a></p>&mdash; The Hill (@thehill) <a href="https://twitter.com/thehill/status/1171156734750203904?ref_src=twsrc%5Etfw">September 9, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  <p>"And then after that we'll go for another four years because you know what, they spied on my campaign. We should get a re-do."</p>
+                  <iframe width="480" height="290" src="https://www.youtube.com/embed/3LJ9sNsXERU?start=21" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-ukraine">
+                  Enlisted a foreign government's assistance in investigating an unbased conspiracy theory for his political opponent, Joe Biden
+                </button>
+              </div>
+              <div id="corruption-ukraine" class="collapse">
+                <div class="card-body">
+                 <p>This event was the basis for the 2019 impeachment of Donald Trump.</p>
+                 <p>In September 2019, a whistleblower complaint raised concerns about Trump using his presidential powers to solicit foreign intervention in the US electoral process. The complaint was specifically around a phone call between Trump and Ukrainian president Volodymyr Zelensky, in which Trump asked Zelensky to open investigations into Joe Biden and his son, Hunter Biden. The request came directly after discussing congressionally-mandad military funds to Ukraine, after which Trump said, "I would like you to do us a favor though." <a href='https://en.wikipedia.org/wiki/Trump%E2%80%93Ukraine_scandal'>[1]</a></p>
+                 <p>The White House has confirmed several of the allegations, and has provided a non-verbatim transcript of the phone call. <a href='https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf'>[2]</a></p>
+                 <p>In January 2020, the Government Accountability Office, a non-partisan watchdog agency, concluded that the White House broke federal law by withholding the aid. Specifically, the White House violated the Impoundment Control Act, which states that the government "does not permit OMB to withhold funds for policy reasons." <a href='https://www.npr.org/2020/01/16/796806517/trump-broke-the-law-in-freezing-ukraine-funds-watchdog-report-concludes'>[3]</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-stone">
+                  Commuted the prison sentence of Roger Stone, convicted of obstruction, witness tampering and five counts of making false statements to Congress
+                </button>
+              </div>
+              <div id="corruption-stone" class="collapse">
+                <div class="card-body">
+                  <p>Roger Stone came under investigation for his ties to Russia and WikiLeaks during the 2016 election. Stone appeared to have insider information on the 20,000 leaked emails belonging to Clinton campaign chairman John Podesta. When questioned by Congress on the source of his information, Stone claimed that his source was radio host Randy Credico. Prosecutors later found evidence that his true source was Jerome Corsi, a right wing conspiracy theorist. In an email dated August 2, 2016, Corsi told Stone that WikiLeaks planned to release "very damaging" information about Clinton.</p>
+                  <p>Randy Credico testified that Stone had threatened him and his therapy dog in an attempt to prevent him from testifying before Congress. In an apparent reference to the "Godfather" movies, Stone said, "I'm going to take that dog away from you. Not a fucking thing you can do about it either because you are a weak piece of shit." In another exchange, Stone said, "Let's get it on. Prepare to die,cocksucker."</p>
+                  <p>These threats were successful, and resulted in Credico invoking his Fifth Amendment right to avoid testifying before the Committee.</p>
+                  <p>Stone also claimed that he never had any written communications referencing Assange, when in fact several text messages and emails were found referencing WikiLeaks and Corsi. <a href='https://www.factcheck.org/2020/02/roger-stones-crimes/'>[1]</a></a></p>
+                  <p>Stone was also convicted of obstructing the Russia investigation. He claimed that he has nothing to do with Russia, however several emails were found between Stone and the Russian hacker accused of the cyberattack on the DNC. <a href='https://www.businessinsider.com/who-is-roger-stone-why-is-fbi-investigating-him-2017-3'>[2]</a></a></p>
+                  <p>Stone is a loyal Trump supporter, and has promised to remain loyal to the President. "I will never roll on Donald Trump." <a href='https://www.nytimes.com/2020/07/11/us/politics/trump-roger-stone.html'>[3]</a> In an interview with NBC's Howard Fineman, Stone said, "I had 29 or 30 conversations with Trump during the campaign period,” he reminded me. “He knows I was under enormous pressure to turn on him. It would have eased my situation considerably. But I didn’t. They wanted me to play Judas. I refused." <a href='https://www.cnbc.com/2020/07/10/trump-will-commute-ally-roger-stones-prison-sentence-source-tells-nbc-news.html'>[4]</a> </p>
+                  <p>Trump's decision to commute Stone's sentence is unprecedented, and spurred an op-ed by Rober Mueller where he stated, "When a subject lies to investigators, it strikes at the core of the government’s efforts to find the truth and hold wrongdoers accountable. It may ultimately impede those efforts."</p>
+                  <p>Senator Mitt Romney called the commutation "Unprecedented, historic corruption"</p>
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Unprecedented, historic corruption: an American president commutes the sentence of a person convicted by a jury of lying to shield that very president.</p>&mdash; Mitt Romney (@MittRomney) <a href="https://twitter.com/MittRomney/status/1281937795616067586?ref_src=twsrc%5Etfw">July 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-cohen">
+                  Trump is an unindicted co-conspirator in the campaign finance violation case against Michael Cohen, his personal lawyer
+                </button>
+              </div>
+              <div id="corruption-cohen" class="collapse">
+                <div class="card-body">
+                  <p>Michael Cohen, who had been Trump's personal attorney since 2006, is currently serving a 3 year prison sentence for tax evasion, campaign finance violations, and other crimes. His campaign finance violation conviction stems from the $130,000 in hush money that Cohen paid to Stormy Daniels, at Trump's direction, in exchange for her silence regarding her affair with Trump. </p>
+                  <p>Trump is an unindicted co-conspirator in these charges, as a sitting president cannot be indicted per Department of Justice policy. <a href='https://www.wsj.com/articles/michael-cohen-to-plead-guilty-to-criminal-charges-1534875978'>[1]</a></p>
+                  <p>In summary, Trump committed a felony campaign finance violation by instructing his lawyer to make a payment for the purpose of influencing an election. He has not yet been indicted for this crime as a sitting president cannot be indicted.</p>
+                </div>
+              </div>
+            </div>
+
+            <!--<div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#corruption-loyalty">
+                  Demands unwavering loyalty from government officials
+                </button>
+              </div>
+              <div id="corruption-loyalty" class="collapse">
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+          -->
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#christianity">
+            Feigning Christianity
+          </button>
+        </div>
+        <div id="christianity" class="collapse">
+          <div class="card-body">
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#christianity-protest">
+                  Used tear gas and rubber bullets to disperse a crowd of peaceful protestors so he could get to a church for a photo op
+                </button>
+              </div>
+              <div id="christianity-protest" class="collapse">
+                <div class="card-body">
+                  <p>
+                    In June 2020, the National Guard used tear gas and rubber bullets to clear a crowd of peaceful protestors Lafayette Park. The crowd was protesting the murder of George Floyd, which had happened a week earlier in Minneapolis.</p>
+                  <p>
+                    The church had not been notified about the visit, and the church leadership opposed using their church as a backdrop for Trump's message. "That is the most sacred text of the Judeo-Christian tradition. It speaks messages of love, of God, love of neighbor. I was outraged that he felt that he had the license to do that, and that he would abuse our sacred symbols and our sacred space in that way," said Right Rev. Mariann Edgar Budde, Episcopal bishop with oversight responsibilities for the church. <a href='https://www.npr.org/2020/06/01/867532070/trumps-unannounced-church-visit-angers-church-officials'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#christianity-bible">
+                  Says the Bible is "his favorite book" yet cannot cite a single verse that is important to him when asked.
+                </button>
+              </div>
+              <div id="christianity-bible" class="collapse">
+                <div class="card-body">
+                  <p>
+                    In an interview with Bloomberg Politics, Trump was asked to name one or two of his favorite verses. He refused to cite a single verse. <a href='https://www.youtube.com/watch?v=ERUngQUCsyE'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental">
+            Harmful Environmental Actions
+          </button>
+        </div>
+        <div id="environmental" class="collapse">
+          <div class="card-body">
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-esa">
+                  Weakened the Endangered Species Act, aiming to open the way for new mining, oil and gas drilling
+                </button>
+              </div>
+              <div id="environmental-esa" class="collapse">
+                <div class="card-body">
+                  <p>In 2019, the Trump administration announced changes to the way the Endangered Species act will be applied. The changes make it easier to remove species from the list and weaken protections for threatened species, the classification below endangered. <a href='https://www.nytimes.com/2019/08/12/climate/endangered-species-act-changes.html'>[1]</a></p>
+                  <p>The changes also allow regulators to consider the economic impact on protecting a species during the decision process.</p>
+                  <p>The Trump administration also loosened the definition of "forseeable future" when defining risks to a species, which allows regulators to ignore the effects of climate change on species continued survival. <a href='https://time.com/5651168/trump-endangered-species-act/'>[2]</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-covid">
+                  Ordered federal agencies to use emergency authority to get around environmental regulations to expedite highways, pipelines and other infrastructure projects
+                </button>
+              </div>
+              <div id="environmental-covid" class="collapse">
+                <div class="card-body">
+                  <p>In June 2020, Trump signed an executive order aimed at allowing federal agencies to sidestep standard requirements of environmental regulations such as the Clean Air and Endangered Species Acts. <a href='https://www.wsj.com/articles/epa-aims-to-standardize-cost-benefit-analyses-for-clean-air-rules-11591306573?mod=searchresults&page=1&pos=4'>[1]</a></p>
+                  <p>The order is aimed at boosing the econimic recovery from the COVID-19 pandemic. Environmental laws do allow for exemptions under emergency conditions, however, these have historically been reserved for natural disasters, and not for economic reasons.</p> 
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-artic">
+                  Initiated plans to open up the Arctic National Wildlife Refuge to oil and gas drilling, which will emit billions of tons of carbon dioxide to the atmosphere
+                </button>
+              </div>
+              <div id="environmental-artic" class="collapse">
+                <div class="card-body">
+                  <p>In August 2020, the Trump administration announced that it will open up the Arctic National Wildlife Refuge to drilling. This will allow leasing on the undisturbed wilderness, which is home to migrating caribou, polar bears and foxes. It is estimated that this will release more than 4.3 billion metric tons of carbon dioxide into the atmosphere, equal to about 3/4 of US annual emissions. <a href='https://www.washingtonpost.com/climate-environment/2020/08/17/trump-drilling-arctic-national-wildlife-refuge-alaska/'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-offshore">
+                  Rolled back safety measures for offshore drilling, aimed to prevent a repeat of the 2010 Deepwater Horizon explosion
+                </button>
+              </div>
+              <div id="environmental-offshore" class="collapse">
+                <div class="card-body">
+                  <p>In May 2019, the Trump administration rolled back Obama-era safety regulations for offshore drilling. The rollback affects rules aimed at preventing offshore oil and gas wells from "blowing out," or suddenly releasing an uncontrollable amount of crude oil.</p>
+                  <p>The rolled-back rules were put in place in 2011, after the Deepwater Horizon disaster, an explosion which killed 11 workoers and spilled 4 million barrels into the Gulf of Mexico over 87 days. The new rules included requirements for the design of drilling components as well as monitoring and inspection regulations. <a href='https://www.npr.org/2019/05/03/720008093/trump-administration-moves-to-roll-back-offshore-drilling-safety-regulations'>[1]</a></p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-methane">
+                  Rolled back controls on the release of methane, one of the most powerful greenhouse gases
+                </button>
+              </div>
+              <div id="environmental-methane" class="collapse">
+                <div class="card-body">
+                  <p>In August 2020, the Trump administration announced plans to lift Obama-era controls on the release of methane gas. The new rule eliminates federal mandates requiring oil and gas companies to install technology to "detect and fix methand leaks from wells, pipelines, and storage sites." <a href='https://www.nytimes.com/2020/08/10/climate/trump-methane-climate-change.html'>[1]</a></p>
+                  <p>Many oil and gas companies opposed this change. Methane is the main ingredient in natural gas, and incentivizing companies to prevent leaks helps promote natural gas as a clean energy. <a href='https://www.npr.org/2020/08/13/901863874/trumps-methane-rollback-that-big-oil-doesn-t-want'>[2]</a></p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#environmental-sage">
+                 Attempted to ease protections for a protected bird species on oil land
+                </button>
+              </div>
+              <div id="environmental-sage" class="collapse">
+                <div class="card-body">
+                  <p>In 2019, the Trump administration planned to strip protections on the habitat of the sage grouse. The sage grouse is referred to as a "canary in the coal mine" for the environment it habitates - when the sage grouse population is declining, the surrounding ecosystem is likely also declining. <a href='https://www.nationalgeographic.com/news/2017/03/how-trump-is-changing-science-environment/'>[1]</a> </p>
+                  <p>The Trump administration plan would lead to increased oil and gas leases, drilling permits, roads, pipelines, power lines, and more in the protected lands. </p>
+                  <p>A federal judge ultimately blocked the plan, arguing that the administration "failed to consider reasonable alternatives and did not thoroughly examine the environmental consequences of its actions." <a href='https://www.nytimes.com/2019/10/16/climate/trump-sage-grouse.html'>[2]</a></p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny">
+            Misogyny & Infidelity
+          </button>
+        </div>
+        <div id="misogyny" class="collapse">
+          <div class="card-body">
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny-assaulting">
+                  Bragged about sexually assaulting women
+                </button>
+              </div>
+              <div id="misogyny-assaulting" class="collapse">
+                <div class="card-body">
+                  <p>In 2005, Donald Trump bragged to television host Billy Bush that his celebrity status allowed him to grope
+                    and kiss women without their consent.</p>
+        
+                  <p>"I don’t even wait. And when you’re a star, they let you do it, you can do anything… grab them by the pussy."
+                    <a href='https://www.youtube.com/watch?v=NcZcTnykYbw'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny-pagents">
+                  Bragged about "getting away with" walking into the dressing room for
+                  Miss Teen USA pageants while teenagers were undressed
+                </button>
+              </div>
+              <div id="misogyny-pagents" class="collapse">
+                <div class="card-body">
+                  <p>"You know they’re standing there with no clothes. Is everybody OK? And you see these incredible looking
+                    women. And so I sort of get away with things like that." <a
+                      href='https://www.cbsnews.com/news/more-donald-trump-tapes-surface-from-howard-stern-show/'>[1]</a></p>
+                  <p>Contestants described Trump's behavior as "creepy" and "shocking". Some contestants were as young as 15 years
+                    old.</p>
+                  <p>Former contestant Tasha Dixon said that Trump pressured women to "fawn over him, go walk up to him, talk to
+                    him, get his attention" while still not fully dressed, and said that this made contestants feel awkward and
+                    physically vulnerable. <a
+                      href='https://www.independent.co.uk/news/world/americas/donald-trump-former-miss-arizona-tasha-dixon-naked-undressed-backstage-howard-stern-a7357866.html'>[2]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny-military">
+                  Said 26,000 sexual assaults in the military were to be expected as
+                  long as there were women in the military
+                </button>
+              </div>
+              <div id="misogyny-military" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">26,000 unreported sexual assults in the military-only 238 convictions. What did these
+                      geniuses expect when they put men &amp; women together?</p>&mdash; Donald J. Trump (@realDonaldTrump) <a
+                      href="https://twitter.com/realDonaldTrump/status/331907383771148288?ref_src=twsrc%5Etfw">May 7, 2013</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny-daughters">
+                  Objectified his own daughters, Ivanka and Tiffany
+                </button>
+              </div>
+              <div id="misogyny-daughters" class="collapse">
+                <div class="card-body">
+                  <p><strong>On Ivanka:</strong></p>
+                  <ul>
+                    <li>"She does have a very nice figure ... if [she] weren't my daughter, perhaps I'd be dating her." <a
+                        href='https://www.youtube.com/watch?v=DP7yf8-Lk80'>[1]</a></li>
+                    <li>"My daughter, Ivanka. She’s 6 feet tall, she’s got the best body. She made a lot money as a model—a
+                      tremendous amount." [2]</li>
+                    <li>When asked what he and his daughter both consider their favorite things, Trump answered, """I was going to
+                      say sex, but I can relate to [golf and real estate]." [3]</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#misogyny-stormy">
+                  Cheated on his wife, Melania, with a porn star just a few months
+                  after his son, Barron, was born. His lawyer then paid the porn star $130,000 (later reimbursed by Trump) to sign
+                  a non-disclosure agreement regarding the incident
+                </button>
+              </div>
+              <div id="misogyny-stormy" class="collapse">
+                <div class="card-body">
+                  <p>
+                    <a href='https://www.wsj.com/articles/trump-lawyer-arranged-130-000-payment-for-adult-film-stars-silence-1515787678'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#lying">
+            Lying
+          </button>
+        </div>
+        <div id="lying" class="collapse">
+          <div class="card-body">
+          </div>
+        </div>
+      </div> -->
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#dictators">
+            Admiration & Praise for Dictators
+          </button>
+        </div>
+        <div id="dictators" class="collapse">
+          <div class="card-body">
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#dictators-northkorea">
+                  North Korean dictator Kim Jong Un
+                </button>
+              </div>
+              <div id="dictators-northkorea" class="collapse">
+                <div class="card-body">
+                  <ul>
+                    <li><strong>September 24, 2018: </strong>"Chairman Kim has been really very open and terrific, frankly. And I
+                      think he wants to see something happen. So we have done -- I think, mutually, we've done very well with
+                      respect to North Korea." <a
+                        href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-president-moon-republic-korea-bilateral-meeting-3/'>[1]</a>
+                    </li>
+                    <li><strong>September 29, 2018: </strong>"[Kim] wrote me beautiful letters and they're great letters. We fell
+                      in love." <a
+                        href='https://www.cnn.com/videos/politics/2018/09/30/trump-kim-jong-un-fell-in-love-west-virginia-rally-bts-vpx.cnn'>[2]</a>
+                    </li>
+                    <li><strong>April 11, 2019: </strong>"Kim Jong Un has been, really, somebody that I've gotten to know very
+                      well and respect, and hopefully -- and I really believe that, over a period of time, a lot of tremendous
+                      things will happen." <a
+                        href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-president-moon-jae-republic-korea-bilateral-meeting/'>[3]</a>
+                    </li>
+                    <li><strong>May 27, 2019: </strong>"Well, first of all, let me say that I think that Kim Jong Un, or Chairman
+                      Kim, as some people say, is looking to create a nation that has great strength economically. I think he's
+                      very much -- I talk to him a lot about it, and he's very much into the fact that -- he believes, like I do,
+                      that North Korea has tremendous economic potential like perhaps few other developing nations anywhere in the
+                      world." <a
+                        href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-prime-minister-abe-japan-joint-press-conference-3/'>[4]</a>
+                    </li>
+                    <li><strong>September 10, 2020: </strong>"Kim Jong Un is in good health. Never underestimate him!" <a
+                        href='https://twitter.com/realDonaldTrump/status/1304038348772855810?s=20'>[5]</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#dictators-russia">
+                  Russian President Vladimir Putin
+                </button>
+              </div>
+              <div id="dictators-russia" class="collapse">
+                <div class="card-body">
+                  <ul>
+                    <li><strong>September 7, 2016: </strong>"If he says great things about me, I'm going to say great things about
+                      him. I've already said, he is really very much of a leader. I mean, you can say, oh, isn't that a terrible
+                      thing — the man has very strong control over a country. Now, it's a very different system, and I don't
+                      happen to like the system. But certainly, in that system, he's been a leader, far more than our president
+                      has been a leader. ... he does have an 82 percent approval rating, according to the different pollsters...."
+                      <a href='https://time.com/4483355/commander-chief-forum-clinton-trump-intrepid/'>[1]</a></li>
+                    <li><strong>December 20, 2016: </strong>"Great move on delay (by V. Putin) - I always knew he was very smart!"
+                      <a href='https://twitter.com/realdonaldtrump/status/814919370711461890?lang=en'>[2]</a></li>
+                    <li>Refused to question Putin about credible US intelligence agency reports that Russia was offering bounties for US troops <a href='https://www.youtube.com/watch?v=0HzB2tAUd64'>[3]</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#dictators-chinese">
+                  Chinese President Xi Jinping
+                </button>
+              </div>
+              <div id="dictators-chinese" class="collapse">
+                <div class="card-body">
+                  <ul>
+                    <li><strong>April 27, 2017: </strong>"I believe he is trying very hard. He certainly doesn’t want to see
+                      turmoil and death. He doesn’t want to see it. He is a good man. He is a very good man and I got to know him
+                      very well." <a href='https://www.reuters.com/article/us-usa-trump-exclusive-idUSKBN17U04E'>[1]</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#dictators-turkey">
+                  Turkish President Recep Tayyip Erdogan
+                </button>
+              </div>
+              <div id="dictators-turkey" class="collapse">
+                <div class="card-body">
+                  <ul>
+                    <li><strong>September 21, 2017: </strong>"Thank you very much. It's a great honor and privilege -- because
+                      he's become a friend of mine -- to introduce President Erdogan of Turkey. He's running a very difficult part
+                      of the world. He's involved very, very strongly and, frankly, he's getting very high marks." <a
+                        href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-president-erdogan-turkey-bilateral-meeting/'>[1]</a>
+                    </li>
+                    <li><strong>June 29, 2019: </strong>"Well, thank you very much. It's my honor to be with a friend of mine,
+                      somebody I've become very close to, in many respects, and he's doing a very good job: the President of
+                      Turkey." <a
+                        href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-president-erdogan-turkey-bilateral-meeting-osaka-japan/?utm_source=link&utm_medium=header'>[2]</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty">
+            Cruelty
+          </button>
+        </div>
+        <div id="cruelty" class="collapse">
+          <div class="card-body">
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty-warcrimes">
+                  Calling for war crimes: Advocates for killing the families of ISIS terrorists
+                </button>
+              </div>
+              <div id="cruelty-warcrimes" class="collapse">
+                <div class="card-body">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/uHUfOWrA45A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty-veterans">
+                  After veterans speak out saying they will not commit war crimes even
+                  if ordered to, Trump responds with, "They're not going to refuse me"..."If I say do it, they're going to do
+                  it."
+                </button>
+              </div>
+              <div id="cruelty-veterans" class="collapse">
+                <div class="card-body">
+                  <p>
+                    In a presidential debate on March 3, 2016, Trump was asked what he would do if the
+                    military refused to carry out his illegal orders. He responded, "They won't refuse. They're not going to refuse
+                    me. Believe me." When pressed, he doubled down, "If I say do it, they're going to do it."<a
+                    href='https://www.washingtonpost.com/news/the-fix/wp/2016/03/03/the-fox-news-gop-debate-transcript-annotated/'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty-torturing">
+                  Said that if torturing people didn't work, "they deserve it anyway".
+                </button>
+              </div>
+              <div id="cruelty-torturing" class="collapse">
+                <div class="card-body">
+                  <p>
+                    <a href='https://www.realclearpolitics.com/video/2015/11/24/trump_you_bet_your_ass_id_approve_waterboarding_if_it_doesnt_work_they_deserve_it_anyway.html'>[2]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty-familyseparation">
+                  Implemented a new zero-tolerance family separation policy, separating
+                  children from their parents, many of whom were legally seeking asylum
+                </button>
+              </div>
+              <div id="cruelty-familyseparation" class="collapse">
+                <div class="card-body">
+                  <p>
+                    A common misconception is that family separation was started under the Obama
+                    administration. While it is true that the holding facilities were built under Obama's administration, their
+                    purpose was originally to hold children who had arrived unaccompanied at the border. This was to provide
+                    temporary shelter until they could be relocated to a family member.<a
+                    href=https://www.snopes.com/fact-check/obama-build-cages-immigrants/'>[2]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#cruelty-mocking">
+                  Made fun of a disabled reporter
+                </button>
+              </div>
+              <div id="cruelty-mocking" class="collapse">
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence">
+            Encouraging Violence against Opponents
+          </button>
+        </div>
+        <div id="violence" class="collapse">
+          <div class="card-body">
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence-deaddemocrat">
+                  Re-tweeted a video with the opening statement "The only good Democrat is a dead Democrat"
+                </button>
+              </div>
+              <div id="violence-deaddemocrat" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">Thank you Cowboys. See you in New Mexico! <a
+                        href="https://t.co/aCRJeskUA8">https://t.co/aCRJeskUA8</a></p>&mdash; Donald J. Trump (@realDonaldTrump)
+                    <a href="https://twitter.com/realDonaldTrump/status/1265855459719892993?ref_src=twsrc%5Etfw">May 28, 2020</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence-lootingstarts">
+                  "When the looting starts the shooting starts"
+                </button>
+              </div>
+              <div id="violence-lootingstarts" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">....These THUGS are dishonoring the memory of George Floyd, and I won’t let that
+                      happen. Just spoke to Governor Tim Walz and told him that the Military is with him all the way. Any
+                      difficulty and we will assume control but, when the looting starts, the shooting starts. Thank you!</p>
+                    &mdash; Donald J. Trump (@realDonaldTrump) <a
+                      href="https://twitter.com/realDonaldTrump/status/1266231100780744704?ref_src=twsrc%5Etfw">May 29, 2020</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence-legalfees">
+                  Promised his supporters he would pay the legal fees for anyone who punched protestors at his rallies
+                </button>
+              </div>
+              <div id="violence-legalfees" class="collapse">
+                <div class="card-body">
+                  <p>
+                    "If you see somebody getting ready to throw a tomato, knock the crap out of them.
+                    Seriously. Okay? Just knock the hell out of them. I promise you, I will pay for their legal fees." <a href='https://www.youtube.com/watch?v=S3HUVIZQc-Q'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence-wwe">
+                  Tweeted a WWE video depicting himself beating up a man with the CNN logo on his face
+                </button>
+              </div>
+              <div id="violence-wwe" class="collapse">
+                <div class="card-body">
+                  <blockquote class="twitter-tweet">
+                    <p lang="und" dir="ltr"><a
+                        href="https://twitter.com/hashtag/FraudNewsCNN?src=hash&amp;ref_src=twsrc%5Etfw">#FraudNewsCNN</a> <a
+                        href="https://twitter.com/hashtag/FNN?src=hash&amp;ref_src=twsrc%5Etfw">#FNN</a> <a
+                        href="https://t.co/WYUnHjjUjg">pic.twitter.com/WYUnHjjUjg</a></p>&mdash; Donald J. Trump
+                    (@realDonaldTrump) <a
+                      href="https://twitter.com/realDonaldTrump/status/881503147168071680?ref_src=twsrc%5Etfw">July 2, 2017</a>
+                  </blockquote>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#violence-montana">
+                  Praised a Montana congressman for throwing a reporter to the ground and punching him
+                </button>
+              </div>
+              <div id="violence-montana" class="collapse">
+                <div class="card-body">
+                  <p>
+                    "Any guy that can do a body slam, he’s my kind of — he’s my guy." <a
+                    href='https://www.washingtonpost.com/politics/at-montana-rally-trump-praises-congressman-for-assaulting-reporter/2018/10/18/1e1d0d1e-d304-11e8-8c22-fa2ef74bd6d6_story.html'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#military">
+            Disrespecting the Military
+          </button>
+        </div>
+        <div id="military" class="collapse">
+          <div class="card-body">
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#military-mccain">
+                  Called Senator John McCain a "loser" and said "I don't like losers."..."He was a war hero because he was captured. I like people who weren't captured"
+                </button>
+              </div>
+              <div id="military-mccain" class="collapse">
+                <div class="card-body">
+                  <p>
+                    At the 2015 Family Leadership Summit in Iowa, Trump was asked if it was appropriate that he called John McCain a "dummy". Trump responds with a tirade, describing McCain as a loser for failing to win the 2008 election. He then goes on to say that McCain is only considered a war hero because he was captured. <a href='https://youtu.be/541Cg2Jnb8s?t=103'>[1]</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#military-rain">
+                  Canceled a World War 1 memorial due to light rain
+                </button>
+              </div>
+              <div id="military-rain" class="collapse">
+                <div class="card-body">
+                  <p>
+                    In 2018, Trump was scheduled to attend a commemoration in France for US military members killed during World War One. He canceled last-minute due to rain. <a href='https://www.reuters.com/article/us-usa-trump-france-memorial/trump-cancels-ww1-memorial-at-u-s-cemetery-in-france-due-to-rain-idUSKCN1NF0NU'>[1]</a>
+                  </p>
+                  <p>Ben Rhodes, President Barack Obama's deputy national security adviser for strategic communications, said this was an invalid excuse:
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I helped plan all of President Obama’s trips for 8 years. There is always a rain option. Always. <a href="https://t.co/exZNlONQOp">https://t.co/exZNlONQOp</a></p>&mdash; Ben Rhodes (@brhodes) <a href="https://twitter.com/brhodes/status/1061269550107250688?ref_src=twsrc%5Etfw">November 10, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#covid19">
+            Covid-19 Response
+          </button>
+        </div>
+        <div id="covid19" class="collapse">
+          <div class="card-body">
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#covid19-timeline">
+                  Early Timeline
+                </button>
+              </div>
+              <div id="covid19-timeline" class="collapse">
+                <div class="card-body">
+                  <p>
+                    <strong>February 13, 2014:</strong> The Global Health Security Agenda is launched with 44 participating
+                    nations, strengthening the ability of all countries to detect outbreaks and respond as early as possible <a
+                      href='https://obamawhitehouse.archives.gov/the-press-office/2014/09/26/fact-sheet-global-health-security-agenda-getting-ahead-curve-epidemic-th'>[1]</a>
+                  </p>
+                  <p>
+                    <strong>November 04, 2016:</strong> President Obama signs an executive order cementing the Global Health
+                    Security Agenda as a national priority <a
+                      href='https://obamawhitehouse.archives.gov/the-press-office/2016/11/04/executive-order-advancing-global-health-security-agenda-achieve-world'>[2]</a>
+                  </p>
+                  <p>
+                    <strong>2016:</strong> The Obama administration produces a 69-page "pandemic response playbook," thoroughly
+                    outlining steps to take in the event of an infectious disease outbreak <a
+                      href='https://assets.documentcloud.org/documents/6819268/Pandemic-Playbook.pdf'>[3]</a>
+                  </p>
+        
+                  <p>
+                    <strong>May 2018:</strong> Top White House official responsible for leading the US response to a potential
+                    pandemic abruptly resigns with no plans for a replacement, leaving no senior administration official focused
+                    on global health security <a
+                      href='https://www.reuters.com/article/uk-factcheck-trump-fired-pandemic-team/partly-false-claim-trump-fired-pandemic-response-team-in-2018-idUSKBN21C32M'>[4]</a>
+                  </p>
+        
+                  <p>
+                    <strong>May 2018:</strong> The Global Health Security and Biodefense Unit is dissolved by the Trump
+                    administration. Some members are reassigned within the National Security Council. <a
+                      href='https://www.reuters.com/article/uk-factcheck-trump-fired-pandemic-team/partly-false-claim-trump-fired-pandemic-response-team-in-2018-idUSKBN21C32M'>[5]</a>
+                  </p>
+        
+                  <p>
+                    <strong>January 10, 2020:</strong> The World Health Organization (WHO) releases a comprehensive package of
+                    technical guidance with advice to all countries on how to detect, test, and manage potential coronavirus
+                    cases. <a href='https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-19'>[6]</a>
+                  </p>
+        
+                  <p>
+                    <strong>January 18, 2020:</strong> Health and Human Services Secretary Alex Azar calls Trump to warn about the
+                    coronavirus threat. Trump reportedly cut off Azar to criticize him over his efforts to ban flavored vaping
+                    products. Azar told several associates that the president believed his warnings were "alarmist" <a
+                      href='https://www.businessinsider.com/trump-dismissed-azar-coronavirus-warnings-as-alarmist-wapo-2020-4'>[7]</a>
+                  </p>
+        
+                  <p>
+                    <strong>January 21, 2020:</strong> The CDC confirms the first case of coronavirus in the US <a
+                      href='https://www.cdc.gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html'>[8]</a>
+                  </p>
+        
+                  <p>
+                    <strong>January 2020:</strong> A White House official says Trump is first briefed on the coronavirus on
+                    January 23 <a
+                      href='https://www.npr.org/sections/coronavirus-live-updates/2020/05/02/849619486/trump-received-intelligence-briefings-on-coronavirus-twice-in-january'>[9]</a>
+                  </p>
+        
+                  <p>
+                    <strong>January 31, 2020:</strong> Health and Human Services Secretary Alex Azar announces travel restrictions
+                    for travelers coming from China. <a
+                      href='https://www.whitehouse.gov/briefings-statements/press-briefing-members-presidents-coronavirus-task-force/'>[10]</a>
+                  </p>
+                  <p>
+                    <strong>February 2, 2020:</strong> "We pretty much shut it down coming in from China." <a
+                      href='https://www.foxnews.com/travel/airlines-us-coronavirus-outbreak-travelers-china'>[11]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 24, 2020:</strong> "The Coronavirus is very much under control in the USA… Stock Market
+                    starting to look very good to me!" <a
+                      href='https://twitter.com/realdonaldtrump/status/1232058127740174339?lang=en'>[12]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 25, 2020:</strong> Trump compliments his administration's response to the virus thus far:
+                    "CDC and my Administration are doing a GREAT job of handling Coronavirus." <a
+                      href='https://twitter.com/realdonaldtrump/status/1232492821501771776?lang=en'>[13]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 25, 2020:</strong> Trump lies about a vaccine being near: "I think that's a problem that’s
+                    going to go away… They have studied it. They know very much. In fact, we’re very close to a vaccine." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-press-conference-4/'>[14]</a>
+                  </p>
+        
+        
+                  <p>
+                    <strong>February 26, 2020:</strong> Trump defends his cuts to health officials: "I’m a business person — I
+                    don’t like having thousands of people around when you don’t need them." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-conference/'>[15]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 26, 2020:</strong> Trump claims that the US will have almost no cases within a couple of
+                    days: "The 15 (cases in the US) within a couple of days is going to be down to close to zero." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-conference/'>[16]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 26, 2020:</strong> Trump lies at a press briefing about coronavirus case numbers in the US:
+                    "We're going very substantially down, not up." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-conference/'>[17]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 27, 2020:</strong> Trump says the coronavirus will miraculously disappear: "One day it’s like
+                    a miracle, it will disappear." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-meeting-african-american-leaders/'>[18]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 28, 2020:</strong> Trump fumbles when detailing his adminstration's response to the virus:
+                    "We're ordering a lot of supplies. We're ordering a lot of, uh, elements that frankly we wouldn't be ordering
+                    unless it was something like this. But we're ordering a lot of different elements of medical." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-marine-one-departure-84/'>[19]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February 28, 2020:</strong> Trump tells his supporters at a rally that the coronavirus is a Democrat
+                    hoax: "Now the Democrats are politicizing the coronavirus, you know that, right? Coronavirus, they’re
+                    politicizing it. We did one of the great jobs. You say, ‘How’s President Trump doing?’ They go, ‘Oh, not good,
+                    not good.’ They have no clue. They don’t have any clue. They can’t even count their votes in Iowa."" "They
+                    tried the impeachment hoax. That was on a perfect conversation. They tried anything. They tried it over and
+                    over. They’d been doing it since you got in. It’s all turning. They lost. It’s all turning. Think of it. Think
+                    of it. And this is their new hoax." <a href='https://youtu.be/NbwCjL7HC1c?t=225'>[20]</a>
+                  </p>
+        
+                  <p>
+                    <strong>February, 2020:</strong> By the end of February, the WHO has shipped coronavirus tests to nearly 60
+                    countries. The US declined to receive any of the tests, stating the CDC would produce its own test. When the
+                    CDC does release its own test, the initial tests were faulty. <a
+                      href='https://www.politico.com/news/2020/03/06/coronavirus-testing-failure-123166'>[21]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 2, 2020:</strong> Trump asks if a vaccine for influenza, a virus completely unrelated to
+                    COVID-19, would work on the coronavirus: "You take a solid flu vaccine, you don't think that could have an
+                    impact, or much of an impact, on corona?" <a
+                      href='https://www.c-span.org/video/?c4859631/user-clip-take-solid-flu-vaccine'>[22]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 4, 2020:</strong> Trump makes light of coronavirus cases, suggesting that hundreds of thousands
+                    of infected may still be going to work: "If we have thousands or hundreds of thousands of people that get
+                    better just by, you know, sitting around and even going to work — some of them go to work, but they get
+                    better." <a
+                      href='https://www.axios.com/trump-coronavirus-hannity-misinformation-go-to-work-1be59c09-2c3c-4f4d-8d79-4bcfaea63c51.html'>[23]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 5, 2020:</strong> Trump responds to backlash from his comments from the previous day: "I NEVER
+                    said people that are feeling sick should go to work." <a
+                      href='https://twitter.com/realdonaldtrump/status/1235573492004904961?lang=en'>[24]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 6, 2020:</strong> Trump lies about testing availability, something that remains difficult to
+                    obtain today: "Anybody right now, and yesterday, anybody that needs a test gets a test. They’re there. And the
+                    tests are beautiful…. the tests are all perfect like the letter was perfect. The transcription was perfect.
+                    Right? This was not as perfect as that but pretty good." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-tour-centers-disease-control-prevention-atlanta-ga/'>[25]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 6, 2020:</strong> Trump brags about his understanding of viruses: "I like this stuff. I really
+                    get it. People are surprised that I understand it… Every one of these doctors said, ‘How do you know so much
+                    about this?’ Maybe I have a natural ability. Maybe I should have done that instead of running for president."
+                    <a href='https://www.youtube.com/watch?v=eQgHC_GORZ4'>[26]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 6, 2020:</strong> Trump pushes back on allowing stranded cruise passengers to return to the US
+                    due to the optics: "I don't need to have the numbers double because of one ship that wasn't our fault." <a
+                      href='https://youtu.be/ExWLn86Mu_g'>[27]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 8, 2020:</strong> Trump claims he has a plan for the pandemic: "We have a perfectly coordinated
+                    and fine tuned plan at the White House for our attack on CoronaVirus." <a
+                      href='https://twitter.com/realdonaldtrump/status/1236634209516752896?lang=en'>[28]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 9, 2020:</strong> Trump suggests that the world could not have been prepared for this, despite
+                    the previous administration's efforts to prepare for exactly this type of event: "This blindsided the world."
+                    <a href='https://www.youtube.com/watch?v=WY_LLqUYbgg'>[29]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 9, 2020:</strong> Trump again claims that his opponents are overblowing the situation: "The Fake
+                    News Media and their partner, the Democrat Party, is doing everything within its semi-considerable power (it
+                    used to be greater!) to inflame the CoronaVirus situation, far beyond what the facts would warrant." <a
+                      href='https://twitter.com/realdonaldtrump/status/1236975196642390022?lang=en'>[30]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 10, 2020:</strong> After no further national policy decisions on the virus, Trump urges the
+                    nation to stay calm: "It will go away. Just stay calm. It will go away." <a
+                      href='https://www.youtube.com/watch?v=vdAn95tGYUA'>[31]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 13, 2020:</strong> National Emergency Declaration
+                  </p>
+        
+                  <p>
+                    <strong>March 13, 2020:</strong> When asked if he takes any responsibility for the lag in testing (which Trump
+                    previously claimed did not exist, see March 6, 2020 comments), Trump replies: "I don't take responsibility at
+                    all" <a href='https://www.youtube.com/watch?v=wOcY3XlzPzs'>[32]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 16, 2020:</strong> Trump rates his coronavirus response 10 out of 10. <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-press-briefing-3/'>[33]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 19, 2020:</strong> In a recorded interview, Trump tells Bob Woodward that he is intentionally playing down the seriousness of the virus: "I wanted to always play it down. I still like playing it down." <a
+                      href='https://youtu.be/f22A8PWpGY8?t=228'>[34]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 20, 2020:</strong> At a press briefing, a reporter gives Trump an opportunity to reassure scared Americans by asking: "What do you say to Americans who are watching you right now who are scared?"" Trump responded: “I say that you're a terrible reporter, that's what I say. I think it's a very nasty question, and I think it's a very bad signal that you're putting out to the American people." <a
+                      href='https://www.youtube.com/watch?v=Qw0T9RK0GrA'>[35]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 24, 2020:</strong> "We've never closed down the country for the flu. So you say to yourself, What is this all about?" <a
+                      href='https://www.npr.org/sections/coronavirus-live-updates/2020/03/24/820797301/fact-check-trump-compares-coronavirus-to-the-flu-but-they-are-not-the-same'>[36]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 24, 2020:</strong> "The faster we go back, the better it’s going to be." <a
+                      href='https://www.whitehouse.gov/briefings-statements/remarks-president-trump-vice-president-pence-members-coronavirus-task-force-fox-news-virtual-town-hall/'>[36]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 30, 2020:</strong> "I haven't heard about testing being a problem." <a
+                      href=' https://twitter.com/CBSNews/status/1244761657114591234?s=20'>[37]</a>
+                  </p>
+        
+                  <p>
+                    <strong>March 30, 2020:</strong> "We inherited a broken test - the whole thing was broken." <a
+                      href='https://youtu.be/-iEhLe5G4RU?t=365'>[38]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#covid19-refusingmask">
+                  Refused to wear a mask in public until finally publicly wearing one on July 11
+                </button>
+              </div>
+              <div id="covid19-refusingmask" class="collapse">
+                <div class="card-body">
+                  <p>
+                    The CDC and WHO have each stated that wearing a mask when within 6 feet of others helps to slow the spread of COVID-19 <a href='https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html'>[1]</a><a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks'>[2]</a>. Despite this, requiring that masks be worn in public places has become a controversial and divisive topic.
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#covid19-mockmask">
+                  Made fun of Joe Biden for wearing a mask
+                </button>
+              </div>
+              <div id="covid19-mockmask" class="collapse">
+                <div class="card-body">
+                  <p>At a rally in Pennsylvania, Trump mocked Biden in front of a mostly maskless crowd. But did you ever see a man that likes a mask as much as him? And then he makes a speech, and he always has it - not always, but a lot of times, he has it hanging down. Because, you know what, it gives him a feeling of security. If I were a psychiatrist — right? I'd say, this guy's got some big issues. Hanging down."<a href='https://www.youtube.com/watch?v=9k3LDdLseM4'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#covid19-rallies">
+                  Continues to hold crowded rallies with no mask or social distancing requirements
+                </button>
+              </div>
+              <div id="covid19-rallies" class="collapse">
+                <div class="card-body">
+                  <p>There are 19 Trump campaign rallies for 2020, all occuring well into the COVID-19 pandemic <a href='https://en.wikipedia.org/wiki/List_of_post-election_Donald_Trump_rallies'>[1]</a>. Trump defies his own administration's health guidelines, and in many cases he defies local gathering restrictions <a href='https://www.cnn.com/2020/09/13/media/donald-trump-rally-coronavirus-safety-reliable-sources/index.html'>[2]</a>. Masks are not required, nor is he requiring that attendees practice social distancing. </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#emoluments">
+            Emoluments Violations / Profiting off of the Presidency
+          </button>
+        </div>
+        <div id="emoluments" class="collapse">
+          <div class="card-body">
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#emoluments-divest">
+                  Refused to divest from his business while president, raising ethical questions and presenting a conflict of interest
+                </button>
+              </div>
+              <div id="emoluments-divest" class="collapse">
+                <div class="card-body">
+                  <p>
+                    Presidents have traditionally divested their shares in any businesses while president. Donald Trump has refused to do so, and instead handed control to his two sons. According to the Director of the U.S. Office of Government Ethics, Trump’s arrangement "doesn’t meet the standards that the best of his nominees are meeting and that every President in the past four decades has met." <a href='https://www.npr.org/2017/07/06/535781749/ethics-office-director-walter-shaub-resigns-saying-rules-need-to-be-tougher'>[1]</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#emoluments-properties">
+                  Has visited his own properties at least 274 times during his presidency, charging American taxpayers the standard rate for himself and secret service room & board
+                </button>
+              </div>
+              <div id="emoluments-properties" class="collapse">
+                <div class="card-body">
+                  <p>The Washington Post has kept a running tally of each Presidential visit to a Trump-owned property. As of September, Trump has visited his own properties 274 times. This equates to over 6 visits per month on average throughout his presidency.</p>
+                  <p>Government documents show that the Trump Organization has charged as much as $650 per room per night. In one case, records show that the Trump Organization charged the Secret Service $17,000 per month to rent a 3 bedroom cottage, a rate that is unusually high for comparable rental homes in that area. <a href='https://www.washingtonpost.com/politics/secret-service-spending-bedminster/2020/09/17/9e11e1c2-f6a0-11ea-be57-d00bb9bc632d_story.html'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#emoluments-secretservice">
+                  Charged the Secret Service more than $21,800 for room & board to a Trump-owned club that was closed
+                </button>
+              </div>
+              <div id="emoluments-secretservice" class="collapse">
+                <div class="card-body">
+                  <p>In Spring of 2020, documents show that Trump's club in Bedminster, New Jersey charged the Secret Service at least $21,800 to rent rooms while the club was off-limits to guests. The president did not visit the club during this time period. <a href='https://www.washingtonpost.com/politics/secret-service-spending-bedminster/2020/09/17/9e11e1c2-f6a0-11ea-be57-d00bb9bc632d_story.html'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#emoluments-g7">
+                  Attempted to host the 2020 G-7 Summit of world leaders at his declining Miami resort, but backed down after public backlash
+                </button>
+              </div>
+              <div id="emoluments-g7" class="collapse">
+                <div class="card-body">
+                  <p>In October 2019, Trump announced that the 2020 G-7 Summit would be hosted by his own company, at the Trump National Doral Miami gold resort in Florida. The resort reported a 69% drop in net operating income from 2015 to 2017 and was struggling to fill vacancies.</p>
+                  <p>Only after immense public backlash did Trump reverse course and rescind the announcement. <a href='https://www.washingtonpost.com/politics/trump-has-awarded-next-years-g-7-summit-of-world-leaders-to-his-miami-area-resort-the-white-house-said/2019/10/17/221b32d6-ef52-11e9-89eb-ec56cd414732_story.html'>[1]</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="card">
+        <div class="card-header">
+          <button type="button" class="btn btn-link btn-block text-left" data-toggle="collapse" data-target="#comments">
+            Questionable Comments
+          </button>
+        </div>
+        <div id="comments" class="collapse">
+          <div class="card-body">
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+
+    <div style="height:50px;"></div>
+    <div>
+      <p class="sub-header"><a href="https://iwillvote.com/" onclick="captureOutboundLink('https://iwillvote.com/'); return false;">Check Your Voter Status And Register To Vote</a></p>
+    </div>
+    <div style="height:50px;"></div>
+  </div>
+</body>
+</html>
